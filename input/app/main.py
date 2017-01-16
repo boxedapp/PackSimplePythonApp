@@ -6,5 +6,7 @@ def main():
     for line in f:
         print repr(line)
 
+    raw_input("Press Enter to continue...")    
+
 if __name__ == "__main__":
     main()
